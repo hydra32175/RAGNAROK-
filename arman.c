@@ -13,7 +13,7 @@ void *send_udp_traffic(void *arg) {
     int thread_count = atoi(((char **)arg)[3]);
     struct sockaddr_in target_addr;
     int sock;
-    char message[] = "GAA*D MARAAYII CHALU HO GAYI , AB TO ARMAN TEAM CHANNEL JOIN KAR LO";
+    char message[] = "GAA*D MARAAYII CHALU HO GAYI , AB TO HYDRAXCHEATS TEAM CHANNEL JOIN KAR LO";
 
     sock = socket(AF_INET, SOCK_DGRAM, 0);
     if (sock < 0) {
